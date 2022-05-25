@@ -1,0 +1,195 @@
+/* Body of the webpage */
+.container {
+  max-width: 1024px;
+  margin: auto;
+}
+
+body {
+  background-color: white;
+}
+
+/* Header section of the webpage */
+.header {
+  display: flex;
+  margin-top: 10px;
+}
+
+.login-button {
+  border-radius: 10px;
+  background-color: white;
+  margin: 10px 0px 0 450px;
+  width: 60px;
+  height: 30px;
+
+}
+
+.logo {
+  display: inline;
+  height: 18px;
+  margin: 15px 100px 0 50px;
+}
+
+ul {
+  margin-top: 15px;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  list-style: none;
+  margin: 10px;
+}
+
+/* Main Section of the Webpage */
+h4,
+h6 {
+  color: black;
+  font-family: Roboto, Sans-serif;
+  opacity: 0.7;
+}
+
+h1,
+h5 {
+  font-family: Roboto, Sans-serif;
+}
+
+/* Chat Box Section */
+.chat-image {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.username {
+  font-weight: bold;
+  font-size: 10px;
+  color: black;
+  margin: 10px 0 3px 0;
+}
+
+.chat-text {
+  font-size: 10px;
+  color: lightslategray;
+  margin: 0%;
+}
+
+.chat-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-chat-username {
+  position: relative;
+}
+
+.grid-chat-text {
+  position: absolute;
+  margin-left: 60px;
+
+}
+
+/* Main page structure */
+.grid-container {
+  display: grid;
+  grid-template-columns: 60% 5% 35%;
+  margin: 50px;
+}
+
+.overlap-decoration {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0;
+}
+
+.caption-1 {
+  margin-bottom: 0;
+}
+
+.caption-2 {
+  color: rgb(8, 139, 247);
+  position: relative;
+  margin: 0;
+}
+
+.heading-decoration {
+  position: absolute;
+  width: 300px;
+  height: 20px;
+  opacity: 0.6;
+  margin-top: 18px;
+}
+
+
+
+.room-button {
+  color: white;
+  border-radius: 15px;
+  background-color: rgb(8, 139, 247);
+  width: 200px;
+  height: 30px;
+  margin: 30px 20px 0 0;
+}
+
+.discord-button {
+  border-radius: 15px;
+  background-color: white;
+  width: 140px;
+  height: 30px;
+  font-weight: bold;
+}
+
+/* Study Image and Overlapping Clock */
+.study-img-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.study-image {
+  border-radius: 20px;
+  margin: 0px 100px 0 0;
+  position: relative;
+}
+
+.study-time {
+  background-color: white;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border: 5px solid white;
+  padding: 5px 50px 5px 50px;
+  border-radius: 10px;
+  box-shadow: 5px 10px 10px 0px rgb(174, 205, 224);
+  margin: 330px 0 0 150px;
+}
+
+
+/* Footer Section of the Webpage */
+.footer {
+  position: float;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.footer h5 {
+  color: lightgray;
+  margin: 100px 0 50px 0;
+}
+
+
+.footer-images {
+  text-align: center;
+}
+
+.footer-img {
+  padding: 0 80px 0 0;
+  width: 8%;
+  height: auto;
+}
+
+.discord-img {
+  padding: 0 80px 0 0;
+  max-width: 30px;
+  height: auto;
+}
