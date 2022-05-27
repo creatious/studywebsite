@@ -130,6 +130,7 @@ h5 {
   width: 200px;
   height: 30px;
   margin: 30px 20px 0 0;
+
 }
 
 .discord-button {
@@ -159,7 +160,7 @@ h5 {
   width: 50px;
   height: 50px;
   border: 5px solid white;
-  padding: 5px 50px 5px 50px;
+  padding: 5px 50px 5px 15px;
   border-radius: 10px;
   box-shadow: 5px 10px 10px 0px rgb(174, 205, 224);
   margin: 330px 0 0 150px;
