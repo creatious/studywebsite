@@ -54,39 +54,30 @@ h5 {
   font-family: Roboto, Sans-serif;
 }
 
+.caption-text h5 {
+  margin-top: 100px;
+}
+
 /* Chat Box Section */
+.chat-grid {
+  display: flex;
+  align-items: center;
+}
+
 .chat-image {
   border-radius: 50%;
   width: 50px;
   height: 50px;
+  margin-right: 10px;
 }
 
-.username {
-  font-weight: bold;
-  font-size: 10px;
-  color: black;
-  margin: 10px 0 3px 0;
+.grid-chat-text h1 {
+  font-size: 15px;
+  margin-bottom: 5px;
 }
 
-.chat-text {
-  font-size: 10px;
-  color: lightslategray;
-  margin: 0%;
-}
-
-.chat-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.grid-chat-username {
-  position: relative;
-}
-
-.grid-chat-text {
-  position: absolute;
-  margin-left: 60px;
-
+.grid-chat-text h2 {
+  font-size: 15px;
 }
 
 /* Main page structure */
@@ -143,7 +134,7 @@ h5 {
 }
 
 /* Study Image and Overlapping Clock */
-.study-img-grid {
+.study-img-alignment {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
@@ -151,19 +142,38 @@ h5 {
 .study-image {
   border-radius: 20px;
   margin: 0px 100px 0 0;
-  position: relative;
+}
+
+
+.clock {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  margin: 320px 0 0 140px;
+  padding: 010px;
+  background: white;
+  border-radius: 10px;
 }
 
 .study-time {
-  background-color: white;
-  position: absolute;
   width: 50px;
-  height: 50px;
-  border: 5px solid white;
-  padding: 5px 50px 5px 15px;
-  border-radius: 10px;
-  box-shadow: 5px 10px 10px 0px rgb(174, 205, 224);
-  margin: 330px 0 0 150px;
+  padding: 0 0 0 1px;
+}
+
+.study-hour {
+  padding-left: 10px;
+  margin: 0;
+}
+
+.study-hour h1 {
+  font-size: 15px;
+  opacity: 50%;
+  margin-bottom: 3px;
+}
+
+.study-hour h2 {
+  margin: 0;
+  font-size: 20px;
 }
 
 
